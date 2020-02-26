@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+<!--    <item android:drawable="@android:color/white" />-->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <gradient
+                android:startColor="@color/dark_blue"
+                android:endColor="@color/blue"
+                android:angle="90"/>
+        </shape>
+    </item>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher" />
+    </item>
+</layer-list>
